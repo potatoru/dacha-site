@@ -10,7 +10,9 @@
     "watch": "vite build --watch"
   },
   "dependencies": {
+    "@vitejs/plugin-legacy": "^5.4.0",
     "bootstrap": "^5.3.3",
+    "terser": "^5.31.0",
     "vue": "^3.4.21"
   },
   "devDependencies": {
