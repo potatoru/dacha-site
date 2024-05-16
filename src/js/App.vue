@@ -1,0 +1,64 @@
+<template>
+  <div class="container">
+    <div class="col-md-6 col-12 mx-auto font-monospace">
+      <div class="py-5" />
+      <div class="p-4 rounded bg-light shadow-sm">
+        <p class="d-flex align-items-center"><span class="fs-5 me-2">&#127969;</span>Добро пожаловать на Дачу</p>
+        <div style="margin-left: 2.25rem">
+          <p>Дача — это ванильный сервер Minecraft для общения и игры с друзьями без лишних плагинов и дополнительных режимов.</p>
+          <p>Из возможностей на сервере есть только телепорт домой и приват территории от гриферов.</p>
+          <p>Что тут делать? Играть, общаться, строить, скучать.</p>
+        </div>
+        <p class="d-flex align-items-center"><span class="fs-5 me-2">&#128268;</span>Как подключиться</p>
+        <div class="mb-2" style="margin-left: 2.25rem">
+          <table class="table table-borderless table-sm">
+            <tbody>
+              <tr>
+                <td class="bg-light pt-0 ps-0">IP сервера</td>
+                <td class="bg-light pt-0 ps-0">
+                  <div class="d-flex align-items-center fw-bold">
+                    <span>playdacha.ru</span>
+                    <span class="ms-2 status" :class="{online: status == 1}" v-if="status > -1" />
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="bg-light ps-0">Версия</td>
+                <td class="bg-light ps-0">1.20.x</td>
+              </tr>
+              <tr>
+                <td class="bg-light ps-0">Discord</td>
+                <td class="bg-light ps-0"><a href="https://playdacha.ru/discord" target="_blank">playdacha.ru/discord</a></td>
+              </tr>
+              <tr>
+                <td class="bg-light ps-0">ВК</td>
+                <td class="bg-light ps-0"><a href="https://vk.com/playdacha" target="_blank">vk.com/playdacha</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+
+import { onMounted, ref } from 'vue'
+
+const status = ref(-1)
+
+function update () {
+  fetch('https://api.minetools.eu/ping/playdacha.ru/25565').then(r => r.json()).then(s => {
+    status.value = 1
+  }).catch(() => {
+    status.value = 0
+  }).finally(() => {
+    setTimeout(update, 3 * 60 * 1000)
+  })
+}
+
+onMounted(() => {
+  update()
+})
+</script>

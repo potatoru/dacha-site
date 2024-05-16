@@ -1,0 +1,18 @@
+body {
+  background: #f2f2f2;
+}
+
+.status {
+  height: 9px;
+  width: 9px;
+  background-color: #e36161;
+  display: inline-block;
+
+  border-radius: 50%;
+  opacity: 0.9;
+
+  &.online {
+    background-color: #61c854;
+
+  }
+}
