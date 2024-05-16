@@ -8,7 +8,6 @@
         <div style="margin-left: 2.25rem">
           <p>Дача — это ванильный сервер Minecraft для общения и игры с друзьями без лишних плагинов и дополнительных режимов.</p>
           <p>Из возможностей на сервере есть только телепорт домой и приват территории от гриферов.</p>
-          <p>Что тут делать? Играть, общаться, строить, скучать.</p>
         </div>
         <p class="d-flex align-items-center">
           <span style="width: 2.25rem" class="fs-5">&#128268;</span>Как подключиться
@@ -17,10 +16,10 @@
           <table class="table table-borderless table-sm">
             <tbody>
               <tr>
-                <td class="bg-light pt-0 ps-0">IP сервера</td>
+                <td class="bg-light pt-0 ps-0">IP</td>
                 <td class="bg-light pt-0 ps-0">
-                  <div class="d-flex align-items-center fw-bold">
-                    <span>playdacha.ru</span>
+                  <div class="d-flex align-items-center">
+                    <span class="text-decoration-underline">playdacha.ru</span>
                     <span class="ms-2 status" :class="{online: status == 1}" v-if="status > -1" />
                   </div>
                 </td>
