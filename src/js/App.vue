@@ -1,20 +1,19 @@
 <template>
-  <div class="container">
-    <div class="col-md-6 col-12 mx-auto font-monospace">
-      <div class="py-5" />
+  <div class="container h-100 d-flex align-items-center justify-content-center">
+    <div class="col-md-6 col-12 mx-auto">
       <div class="p-4 rounded bg-light shadow-sm">
         <p class="d-flex align-items-center">
-          <span style="width: 2rem">&#127969;</span>Добро пожаловать на Дачу
+          <span style="width: 2.25rem" class="fs-5">&#127969;</span>Добро пожаловать на Дачу
         </p>
-        <div style="margin-left: 2rem">
+        <div style="margin-left: 2.25rem">
           <p>Дача — это ванильный сервер Minecraft для общения и игры с друзьями без лишних плагинов и дополнительных режимов.</p>
           <p>Из возможностей на сервере есть только телепорт домой и приват территории от гриферов.</p>
           <p>Что тут делать? Играть, общаться, строить, скучать.</p>
         </div>
         <p class="d-flex align-items-center">
-          <span style="width: 2rem">&#128268;</span>Как подключиться
+          <span style="width: 2.25rem" class="fs-5">&#128268;</span>Как подключиться
         </p>
-        <div class="mb-2" style="margin-left: 2rem">
+        <div class="mb-2" style="margin-left: 2.25rem">
           <table class="table table-borderless table-sm">
             <tbody>
               <tr>
