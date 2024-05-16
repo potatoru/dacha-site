@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "watch": "vite build --watch"
+    "watch": "cross-env NODE_ENV=development vite build --watch"
   },
   "dependencies": {
     "@vitejs/plugin-legacy": "^5.4.0",
@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
+    "cross-env": "^7.0.3",
     "sass": "^1.77.1",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
