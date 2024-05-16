@@ -49,7 +49,7 @@ import { onMounted, ref } from 'vue'
 const status = ref(-1)
 
 function update () {
-  fetch('https://api.minetools.eu/ping/playdacha.ru/25565').then(r => r.json()).then(s => {
+  fetch('https://api.minetools.eu/ping/playdacha.ru/25565').then(r => r.json()).then(() => {
     status.value = 1
   }).catch(() => {
     status.value = 0
