@@ -6,6 +6,22 @@ html, body, #app {
   height: 100%;
 }
 
+.sky {
+  background: #87CEEB;
+  height: 1rem;
+  width: 100%;
+}
+
+.ground {
+  background-image: url('/img/png.png');
+  background-repeat: repeat-x;
+  background-position: left top;
+  background-size: contain;
+  height: 1rem;
+  width: 100%;
+
+}
+
 .status {
   height: 9px;
   width: 9px;
