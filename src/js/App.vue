@@ -29,11 +29,11 @@
                 </tr>
                 <tr>
                   <td class="bg-light ps-0">Версия</td>
-                  <td class="bg-light ps-0">1.20.x</td>
+                  <td class="bg-light ps-0">1.21.4</td>
                 </tr>
                 <tr>
-                  <td class="bg-light ps-0">Discord</td>
-                  <td class="bg-light ps-0"><a href="https://playdacha.ru/discord" target="_blank">playdacha.ru/discord</a></td>
+                  <td class="bg-light ps-0">Telegram</td>
+                  <td class="bg-light ps-0"><a href="https://t.me/playdacha" target="_blank">t.me/playdacha</a></td>
                 </tr>
                 <tr>
                   <td class="bg-light ps-0 pb-0">ВК</td>
