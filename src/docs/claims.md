@@ -4,7 +4,7 @@
 <div class="grid formgrid">
 <div class="col-6 md:col-4">
 
-### Маленький приват
+### Малый приват
 
 **Размер:** 3х3 чанка
 
