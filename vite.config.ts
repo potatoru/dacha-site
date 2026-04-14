@@ -46,6 +46,16 @@ export default defineConfig({
     })
   ],
 
+  build: {
+    rolldownOptions: {
+      output: {
+        manualChunks: (id) => {
+          if (id.includes('node_modules')) {return 'vendor'}
+        }
+      },
+    }
+  },
+
   resolve: {
     alias: {
       '@app': fileURLToPath(new URL('./src', import.meta.url)),
