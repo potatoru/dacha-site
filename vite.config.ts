@@ -36,7 +36,7 @@ export default defineConfig({
         }
 
         md.use(MarkdownItClass, mapping)
-        md.use(MarkdownItAttrs)
+        md.use(MarkdownItAttrs as any)
       }
     }),
     Components({
