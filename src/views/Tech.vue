@@ -14,7 +14,7 @@
   <div class="grid formgrid">
     <div class="hidden md:block md:col-3 p-0">
       <div class="sticky" style="top: 3rem;">
-        <div class="bg-white pb-4 pt-3 px-3 border-round-xl shadow-1 border-1 surface-border">
+        <div class="bg-white p-3 border-round-xl shadow-1 border-1 surface-border">
           <template v-for="(menu, index) in items" :key="index">
             <h3 class="text-xs font-bold text-500 uppercase pt-2 mb-2 mt-0 ml-2">{{ menu.label }}</h3>
             <div class="flex flex-column mb-2">
@@ -31,7 +31,6 @@
 
 
     <div class="col-12 md:col md:ml-5 flex flex-column gap-5 p-0">
-
       <TechCard id="teleport" header="Телепорты" icon="pi pi-asterisk">
         <div class="p-3">
           <TeleportDocs />

@@ -6,7 +6,7 @@
       </div>
     </header>
 
-    <main class="flex-grow-1 p-3 site-container mx-auto w-full">
+    <main class="flex-grow-1 p-3 site-container mx-auto w-full mb-6">
       <router-view />
     </main>
 

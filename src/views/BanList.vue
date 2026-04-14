@@ -12,7 +12,7 @@
     согласны с наказанием, можете <a class="text-primary" href="/donate">купить разбан</a>.
   </p>
 
-  <div class="bg-white border-round-2xl shadow-sm border-1 surface-border overflow-hidden">
+  <div class="bg-white border-round-2xl shadow-1 border-1 surface-border overflow-hidden">
     <DataTable
         :value="banlist"
         :rows="25"

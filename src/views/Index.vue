@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-column align-items-center text-center pt-6 pb-5">
+  <div class="flex flex-column align-items-center text-center pt-6">
 
     <h1 class="text-7xl font-bold m-0 mb-3 text-900 logo-text">
       Дача Minecraft
