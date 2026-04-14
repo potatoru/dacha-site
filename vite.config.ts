@@ -32,7 +32,7 @@ export default defineConfig({
         // replace inline code with Tag
         md.renderer.rules.code_inline = (tokens, idx) => {
           const content = tokens[idx].content;
-          return `<Tag severity="secondary" value="${content}" class="font-mono" />`;
+          return `<Tag severity="secondary" value="${content}" class="font-mono font-normal text-700" />`;
         }
 
         md.use(MarkdownItClass, mapping)
