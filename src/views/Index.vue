@@ -43,7 +43,7 @@
           :key="index"
           class="col-12 md:col-6 lg:col-4 mb-4"
       >
-        <div class="bg-white p-4 border-round-2xl shadow-1 border-1 surface-border h-full hover:shadow-md transition-all">
+        <div class="bg-white p-4 border-round-2xl shadow-1 border-1 surface-border h-full hover:shadow-2">
           <div class="flex align-items-center gap-3 mb-3">
             <div class="bg-primary-50 w-3rem h-3rem border-round-lg flex align-items-center justify-content-center flex-shrink-0">
               <i :class="[feature.icon, 'text-primary text-xl']"></i>

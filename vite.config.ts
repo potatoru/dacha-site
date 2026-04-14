@@ -53,7 +53,8 @@ export default defineConfig({
           if (id.includes('node_modules')) {return 'vendor'}
         }
       },
-    }
+    },
+    cssMinify: "esbuild"
   },
 
   resolve: {
@@ -70,4 +71,5 @@ export default defineConfig({
       }
     }
   }
+
 })

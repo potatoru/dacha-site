@@ -12,7 +12,7 @@ export const DachaPreset = definePreset(Aura, {
       200: '#facfae',
       300: '#f6b07a',
       400: '#f1924f',
-      500: '#eb7528', // Пастельно-лисий
+      500: '#eb7528',
       600: '#da5f1d',
       700: '#b54816',
       800: '#8f3b16',
@@ -24,7 +24,7 @@ export const DachaPreset = definePreset(Aura, {
       light: {
         surface: {
           0: '#ffffff',
-          50: '#f9fafb', // Нейтральный фон без желтизны
+          50: '#f9fafb',
           100: '#f3f4f6',
           200: '#e5e7eb',
           300: '#d1d5db',
