@@ -49,12 +49,23 @@ export default defineConfig({
   build: {
     rolldownOptions: {
       output: {
-        manualChunks: (id) => {
-          if (id.includes('node_modules')) {return 'vendor'}
-        }
+        codeSplitting: {
+          minSize: 20000,
+          groups: [
+            {
+              name: 'vendor-ui',
+              test: /node_modules[\\/]@?prime(vue|flex|icons)/,
+              priority: 20,
+            },
+            {
+              name: 'vendor',
+              test: /node_modules/,
+            },
+          ],
+        },
       },
     },
-    cssMinify: "esbuild"
+    cssMinify: 'esbuild'
   },
 
   resolve: {

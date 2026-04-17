@@ -78,8 +78,8 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
-import type { TCategory } from '../types.ts'
-import { shop } from '../api/api.ts'
+import type { TCategory } from '@app/types.ts'
+import { shop } from '@app/api/api.ts'
 import PurchaseModal from '@app/components/PurchaseModal.vue'
 
 const loading = ref(true)

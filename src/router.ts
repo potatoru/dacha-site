@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Index from './views/Index.vue'
-import Rules from './views/Rules.vue'
-import Donate from './views/Donate.vue'
+import Index from '@app/views/Index.vue'
+import Rules from '@app/views/Rules.vue'
+import Donate from '@app/views/Donate.vue'
 import BanList from '@app/views/BanList.vue'
 import Tech from '@app/views/Tech.vue'
 

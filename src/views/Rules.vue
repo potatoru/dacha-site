@@ -50,7 +50,7 @@
 </template>
 
 <script setup lang="ts">
-import rulesData from '../data/rules.json';
+import rulesData from '@app/data/rules.json';
 import TechCard from '@app/components/TechCard.vue'
 </script>
 
