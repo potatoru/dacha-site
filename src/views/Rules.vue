@@ -29,7 +29,7 @@
   <TechCard id="grief" header="Разъяснение типовых ситуаций по грифингу" icon="pi pi-exclamation-circle" class="mt-6">
     <div class="p-4">
       <Message severity="secondary" icon="pi pi-question-circle">
-        Меня загрифели или украли ресурсы из сундука, но при этом у меня <strong>не было</strong> привата.
+        Меня загрифили или украли ресурсы из сундука, но при этом у меня <strong>не было</strong> привата.
       </Message>
       <p class="line-height-3 mb-5 text-700">Грифинг и воровство ресурсов запрещены правилами. Вор будет наказан, но так как вы проигнорировали <a href="/tech#claims" target="_blank">механику защиты</a> на сервере,
         вещи возвращены не будут.</p>
