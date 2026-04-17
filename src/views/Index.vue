@@ -48,7 +48,7 @@
             <div class="bg-primary-50 w-3rem h-3rem border-round-lg flex align-items-center justify-content-center flex-shrink-0">
               <i :class="[feature.icon, 'text-primary text-xl']"></i>
             </div>
-            <h3 class="text-lg md:text-xl font-semibold text-800 m-0 line-height-2">{{ feature.title }}</h3>
+            <h3 class="text-lg md:text-xl font-semibold text-700 m-0 line-height-2">{{ feature.title }}</h3>
           </div>
 
           <p class="text-700 line-height-3 m-0 text-sm">
