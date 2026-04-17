@@ -142,7 +142,7 @@ const features = ref([
   },
   {
     title: 'Войс-чат',
-    description: 'Мы используеи плагин SimpleVoiceChat.',
+    description: 'Мы используем плагин SimpleVoiceChat.',
     icon: 'pi pi-microphone'
   },
   {
